@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Work\\Politeh\\Applied_programming\\Lab_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26E3AA42-984B-4608-9456-92B50B46F79D}|Lab_2\\Lab_2.vcxproj|E:\\Work\\Politeh\\Applied_programming\\Lab_2\\Lab_2\\Lab_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{26E3AA42-984B-4608-9456-92B50B46F79D}|Lab_2\\Lab_2.vcxproj|solutionrelative:Lab_2\\Lab_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab_2.cpp",
+              "DocumentMoniker": "E:\\Work\\Politeh\\Applied_programming\\Lab_2\\Lab_2\\Lab_2.cpp",
+              "RelativeDocumentMoniker": "Lab_2\\Lab_2.cpp",
+              "ToolTip": "E:\\Work\\Politeh\\Applied_programming\\Lab_2\\Lab_2\\Lab_2.cpp*",
+              "RelativeToolTip": "Lab_2\\Lab_2.cpp*",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-30T14:51:31.301Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
