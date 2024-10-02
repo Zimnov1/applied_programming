@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\Work\\Politeh\\Applied_programming\\Lab_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26E3AA42-984B-4608-9456-92B50B46F79D}|Lab_2\\Lab_2.vcxproj|E:\\Work\\Politeh\\Applied_programming\\Lab_2\\Lab_2\\Lab_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{26E3AA42-984B-4608-9456-92B50B46F79D}|Lab_2\\Lab_2.vcxproj|solutionrelative:Lab_2\\Lab_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{247D1AD6-4A53-4FD8-B550-81299C892C97}|Lab_2\\Lab_2.pyproj|E:\\Work\\Politeh\\Applied_programming\\Lab_2\\Lab_2\\Lab_2.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{247D1AD6-4A53-4FD8-B550-81299C892C97}|Lab_2\\Lab_2.pyproj|solutionrelative:Lab_2\\Lab_2.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Lab_2.cpp",
-              "DocumentMoniker": "E:\\Work\\Politeh\\Applied_programming\\Lab_2\\Lab_2\\Lab_2.cpp",
-              "RelativeDocumentMoniker": "Lab_2\\Lab_2.cpp",
-              "ToolTip": "E:\\Work\\Politeh\\Applied_programming\\Lab_2\\Lab_2\\Lab_2.cpp*",
-              "RelativeToolTip": "Lab_2\\Lab_2.cpp*",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-30T14:51:31.301Z",
+              "Title": "Lab_2.py",
+              "DocumentMoniker": "E:\\Work\\Politeh\\Applied_programming\\Lab_2\\Lab_2\\Lab_2.py",
+              "RelativeDocumentMoniker": "Lab_2\\Lab_2.py",
+              "ToolTip": "E:\\Work\\Politeh\\Applied_programming\\Lab_2\\Lab_2\\Lab_2.py",
+              "RelativeToolTip": "Lab_2\\Lab_2.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-02T09:11:39.577Z",
               "EditorCaption": ""
             }
           ]

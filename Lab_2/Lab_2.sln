@@ -3,29 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab_2", "Lab_2\Lab_2.vcxproj", "{26E3AA42-984B-4608-9456-92B50B46F79D}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lab_2", "Lab_2\Lab_2.pyproj", "{247D1AD6-4A53-4FD8-B550-81299C892C97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{26E3AA42-984B-4608-9456-92B50B46F79D}.Debug|x64.ActiveCfg = Debug|x64
-		{26E3AA42-984B-4608-9456-92B50B46F79D}.Debug|x64.Build.0 = Debug|x64
-		{26E3AA42-984B-4608-9456-92B50B46F79D}.Debug|x86.ActiveCfg = Debug|Win32
-		{26E3AA42-984B-4608-9456-92B50B46F79D}.Debug|x86.Build.0 = Debug|Win32
-		{26E3AA42-984B-4608-9456-92B50B46F79D}.Release|x64.ActiveCfg = Release|x64
-		{26E3AA42-984B-4608-9456-92B50B46F79D}.Release|x64.Build.0 = Release|x64
-		{26E3AA42-984B-4608-9456-92B50B46F79D}.Release|x86.ActiveCfg = Release|Win32
-		{26E3AA42-984B-4608-9456-92B50B46F79D}.Release|x86.Build.0 = Release|Win32
+		{247D1AD6-4A53-4FD8-B550-81299C892C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247D1AD6-4A53-4FD8-B550-81299C892C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CE35E595-C365-4C15-BF45-A08D7940203F}
+		SolutionGuid = {A30C6628-3FA0-469E-97CD-EE5256B54AE5}
 	EndGlobalSection
 EndGlobal
