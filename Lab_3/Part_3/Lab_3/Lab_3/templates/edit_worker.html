@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Worker</title>
+</head>
+<body>
+    <h1>Edit Worker</h1>
+    <form action="" method="post">
+        <input type="text" name="name" value="{{ worker.name }}" required>
+        <input type="text" name="surname" value="{{ worker.surname }}" required>
+        <input type="text" name="phone_number" value="{{ worker.phone_number }}" required>
+        <input type="text" name="city_of_residence" value="{{ worker.city_of_residence }}" required>
+        <input type="text" name="street" value="{{ worker.street }}" required>
+        <input type="text" name="position" value="{{ worker.position }}" required>
+        <button type="submit">Update Worker</button>
+    </form>
+</body>
+</html>

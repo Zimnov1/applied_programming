@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Device</title>
+</head>
+<body>
+    <h1>Edit Device</h1>
+    <form action="" method="post">
+        <input type="text" name="type" value="{{ device.type }}" required>
+        <input type="text" name="serial_number" value="{{ device.serial_number }}" required>
+        <input type="text" name="model" value="{{ device.model }}" required>
+        <input type="text" name="brand" value="{{ device.brand }}" required>
+        <button type="submit">Update Device</button>
+    </form>
+</body>
+</html>

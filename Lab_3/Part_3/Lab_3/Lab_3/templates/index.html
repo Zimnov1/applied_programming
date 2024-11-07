@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Management</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .tab {
+            display: inline-block;
+            padding: 10px;
+            margin-right: 5px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+            .tab.active {
+                background-color: #007bff;
+                color: white;
+            }
+
+        .content {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Management</h1>
+        <div>
+            <a href="{{ url_for('clients') }}" class="tab {% if current_tab == 'clients' %}active{% endif %}">Clients</a>
+            <a href="{{ url_for('devices') }}" class="tab {% if current_tab == 'devices' %}active{% endif %}">Devices</a>
+            <a href="{{ url_for('workers') }}" class="tab {% if current_tab == 'workers' %}active{% endif %}">Workers</a>
+        </div>
+    </header>
+
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

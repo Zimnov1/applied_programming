@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Work\\Politeh\\Applied_programming\\Lab_3\\Part_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BD7C809-337F-41BA-A6FD-CC7DB9E7947F}|Lab_3\\Lab_3.pyproj|E:\\Work\\Politeh\\Applied_programming\\Lab_3\\Part_1\\Lab_3\\Lab_3.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9BD7C809-337F-41BA-A6FD-CC7DB9E7947F}|Lab_3\\Lab_3.pyproj|solutionrelative:Lab_3\\Lab_3.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lab_3.py",
+              "DocumentMoniker": "E:\\Work\\Politeh\\Applied_programming\\Lab_3\\Part_1\\Lab_3\\Lab_3.py",
+              "RelativeDocumentMoniker": "Lab_3\\Lab_3.py",
+              "ToolTip": "E:\\Work\\Politeh\\Applied_programming\\Lab_3\\Part_1\\Lab_3\\Lab_3.py",
+              "RelativeToolTip": "Lab_3\\Lab_3.py",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-10-30T18:55:24.07Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
