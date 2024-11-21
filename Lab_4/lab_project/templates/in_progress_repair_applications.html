@@ -1,0 +1,25 @@
+<h1>In Progress Repair Applications</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Client ID</th>
+            <th>Device Serial Number</th>
+            <th>Description</th>
+            <th>Planned Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for repair in in_progress_repairs %}
+        <tr>
+            <td>{{ repair.client_id }}</td>
+            <td>{{ repair.device_serial_number }}</td>
+            <td>{{ repair.description }}</td>
+            <td>{{ repair.planned_price }}</td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="4">No repairs in progress.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

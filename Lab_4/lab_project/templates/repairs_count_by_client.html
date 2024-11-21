@@ -1,0 +1,25 @@
+<h1>Repairs by Client</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Client ID</th>
+            <th>Repair Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for repair in repairs %}
+        <tr>
+            <td>{{ repair.client_id }}</td>
+            <td>{{ repair.repairs_count }}</td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="2">No repairs found.</td>
+        </tr>
+        {% endfor %}
+        <tr>
+            <td><strong>Total Repairs</strong></td>
+            <td><strong>{{ total_repairs }}</strong></td>
+        </tr>
+    </tbody>
+</table>

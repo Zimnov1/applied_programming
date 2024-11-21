@@ -1,0 +1,21 @@
+<h1>Clients with Multiple Repairs</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Client ID</th>
+            <th>Repair Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for client in clients %}
+        <tr>
+            <td>{{ client.client_id }}</td>
+            <td>{{ client.repair_count }}</td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="2">No clients with multiple repairs.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

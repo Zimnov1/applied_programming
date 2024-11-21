@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repair Application Statistics</title>
+</head>
+<body>
+    <h1>Repair Application Statistics</h1>
+    <table>
+        <tr>
+            <th>Average Price</th>
+            <td>{{ statistics.avg_price }}</td>
+        </tr>
+        <tr>
+            <th>Minimum Price</th>
+            <td>{{ statistics.min_price }}</td>
+        </tr>
+        <tr>
+            <th>Maximum Price</th>
+            <td>{{ statistics.max_price }}</td>
+        </tr>
+        <tr>
+            <th>Median Price</th>
+            <td>{{ statistics.median_price }}</td>
+        </tr>
+    </table>
+</body>
+</html>

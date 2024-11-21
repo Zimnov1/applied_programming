@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bokeh Dashboard</title>
+    <script src="file:///E:/Work/Politeh/Applied_programming/Lab_4/lab_project/static/js/bokeh.min.js"></script>
+</head>
+<body>
+    <h1>Bokeh Dashboard</h1>
+    <div id="bokeh-graph">
+        {{ div|safe }}
+    </div>
+
+    <script type="text/javascript">
+        {{ script|safe }}
+    </script>
+
+    <a href="{% url 'plotly_dashboard' %}">Go to Plotly Dashboard</a>
+</body>
+</html>
+

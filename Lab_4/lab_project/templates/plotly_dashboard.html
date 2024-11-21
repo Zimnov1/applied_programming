@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plotly Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script type="text/javascript">
+        function updateGraph(value) {
+            fetch(`/update_plot/${value}/`)
+                .then(response => response.json())
+                .then(data => {
+                    const plotDiv = document.getElementById('plotly-graph');
+
+                    if (data.graph === "<p>No data found for the selected filter.</p>") {
+                        plotDiv.innerHTML = data.graph;  
+                    } else {
+                        plotDiv.innerHTML = "";
+
+                        if (data.graph && data.graph.data && data.graph.layout) {
+                            Plotly.newPlot(plotDiv, data.graph.data, data.graph.layout);
+                        } else {
+                            console.error("Received invalid graph data:", data.graph);
+                        }
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                });
+        }
+    </script>
+</head>
+<body>
+    <h1>Plotly Dashboard</h1>
+    <div>
+        <label for="repair-slider">Number of Repairs: </label>
+        <input id="repair-slider" type="range" min="0" max="10" value="0" oninput="updateGraph(this.value)">
+    </div>
+    <div id="plotly-graph">
+        {{ graph|safe }}
+    </div>
+    <a href="{% url 'bokeh_dashboard' %}">Bokeh Dashboard</a>
+</body>
+</html>

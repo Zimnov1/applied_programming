@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Management</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <style>
+        .tab {
+            display: inline-block;
+            padding: 10px;
+            margin-right: 5px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+            .tab.active {
+                background-color: #007bff;
+                color: white;
+            }
+
+        .content {
+            margin-top: 20px;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+            .button-container a {
+                margin: 5px;
+                padding: 10px 20px;
+                display: inline-block;
+                text-decoration: none;
+                color: white;
+                background-color: #007bff;
+                border-radius: 5px;
+            }
+
+                .button-container a:hover {
+                    background-color: #0056b3;
+                }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Management</h1>
+        <div>
+            <a href="{% url 'clients' %}" class="tab {% if current_tab == 'clients' %}active{% endif %}">Clients</a>
+            <a href="{% url 'devices' %}" class="tab {% if current_tab == 'devices' %}active{% endif %}">Devices</a>
+            <a href="{% url 'workers' %}" class="tab {% if current_tab == 'workers' %}active{% endif %}">Workers</a>
+        </div>
+    </header>
+
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <div class="button-container">
+        <a href="{% url 'repairs_count_by_client' %}" class="btn btn-primary">Repairs Count by Client</a>
+        <a href="{% url 'in_progress_repair_applications' %}" class="btn btn-primary">In Progress Repair Applications</a>
+        <a href="{% url 'spare_parts_count' %}" class="btn btn-primary">Spare Parts Count</a>
+        <a href="{% url 'clients_with_multiple_repairs' %}" class="btn btn-primary">Clients with Multiple Repairs</a>
+        <a href="{% url 'spare_parts_sorted_by_price' %}" class="btn btn-primary">Spare Parts Sorted by Price</a>
+        <a href="{% url 'devices_in_repair' %}" class="btn btn-primary">Devices in Repair</a>
+        <a href="{% url 'repair_application_statistics' %}" class="btn btn-primary">Repair Application Statistics</a>
+        <a href="{% url 'plotly_dashboard' %}" class="btn btn-primary">Plotly Dashboard</a>
+        <a href="{% url 'bokeh_dashboard' %}" class="btn btn-primary">Bokeh Dashboard</a>
+    </div>
+</body>
+</html>

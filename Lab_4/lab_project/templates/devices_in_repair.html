@@ -1,0 +1,23 @@
+<h1>Devices In Repair</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Device Serial Number</th>
+            <th>Status</th>
+            <th>Planned Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for device in devices_in_repair %}
+        <tr>
+            <td>{{ device.device_serial_number }}</td>
+            <td>{{ device.status }}</td>
+            <td>{{ device.planned_price }}</td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="3">No devices in repair.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

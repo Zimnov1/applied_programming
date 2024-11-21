@@ -1,0 +1,21 @@
+<h1>Spare Parts Count</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for part in spare_parts %}
+        <tr>
+            <td>{{ part.model }}</td>
+            <td>{{ part.count }}</td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="2">No spare parts found.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

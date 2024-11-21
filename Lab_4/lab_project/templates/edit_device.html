@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+
+{% block content %}
+<h1>Edit Device</h1>
+<form action="{% url 'edit_device' device.serial_number %}" method="post">
+    {% csrf_token %}
+    <input type="text" name="type" value="{{ device.type }}" required>
+    <input type="text" name="serial_number" value="{{ device.serial_number }}" required readonly>
+    <input type="text" name="model" value="{{ device.model }}" required>
+    <input type="text" name="brand" value="{{ device.brand }}" required>
+    <button type="submit">Update Device</button>
+</form>
+
+<a href="{% url 'devices' %}">Back to Devices List</a>
+{% endblock %}

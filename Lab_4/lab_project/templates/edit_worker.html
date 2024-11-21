@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+{% block content %}
+<h1>Edit Worker</h1>
+<form action="{% url 'edit_worker' worker_id=worker.id %}" method="post">
+    {% csrf_token %}
+    <input type="text" name="name" value="{{ worker.name }}" required>
+    <input type="text" name="surname" value="{{ worker.surname }}" required>
+    <input type="text" name="phone_number" value="{{ worker.phone_number }}" required>
+    <input type="text" name="city_of_residence" value="{{ worker.city_of_residence }}" required>
+    <input type="text" name="street" value="{{ worker.street }}" required>
+    <input type="text" name="position" value="{{ worker.position }}" required>
+    <button type="submit">Update Worker</button>
+</form>
+
+<a href="{% url 'workers' %}">Back to Worker List</a>
+{% endblock %}
